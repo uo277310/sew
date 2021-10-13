@@ -1,0 +1,49 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <!-- Rellenar --><meta name="keywords" content="Brendan Eich,Opinión,lenguaje,JavaScript,navegador,trabajos"/>
+    <meta name="author" content="Luis Miguel Gómez"/>
+    <meta name="description" content="Formulario sobre Brendan Eich para recoger opiniones sobre él y sus aportaciones."/>
+    
+    <title> Formulario sobre Brendan Eich </title>
+	<link rel="stylesheet" type="text/css" href="estilos/estilo.css" />
+</head>
+
+<body>
+    <nav>
+        <a title="Inicio" accesskey="I" href="index.html">Inicio</a>
+        <a title="Trabajos" accesskey="T" href="trabajos.html">Trabajos</a>
+        <a title="Lenguajes" accesskey="L" href="diferencias.html">Lenguajes</a>
+        <a title="Opinion" accesskey="O" href="formulario.html">Opinion</a>
+    </nav>
+
+    <h1> Opinión sobre Brendan Eich </h1>
+    <p>  </p>
+
+    <form name="opinion">
+        <p><label>¿Cuanto crees que sabes sobre Eich?: <input type="range" name="rango"></label></p>
+
+        <p><label>¿Conoces el lenguaje de programacion JavaScript?</label>
+            <label>Si<input type="radio" name="js" value="Si"></label>
+            <label>No<input type="radio" name="js" value="No"></label>
+        </p>
+
+        <p><label>¿Que otros lenguajes de programación conoces?<br></label>
+            <label><input type="checkbox" value="Java">Java<br></label>
+            <label><input type="checkbox" value="Java">Java<br></label>
+            <label><input type="checkbox" value="Python">Python<br></label>
+            <label><input type="checkbox" value="C++">C++<br></label>
+        </p>
+
+        <input type="text">¿Que navegador web usas habitualmente?<br>
+
+        <p><label>¿Que opinas de los trabajos de Eich?<br>
+            <textarea name="textarea" rows="6" cols="30" style="resize: none;"></textarea>
+        </label></p>
+        <label><input type="button" value="Enviar"></label>
+    </form>
+	
+</body>
+</html>
