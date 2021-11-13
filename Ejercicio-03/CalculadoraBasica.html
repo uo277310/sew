@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Luis Miguel Gómez"/>    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>CalculadoraBasica</title>
+    
+    <link rel="stylesheet" type="text/css" href="CalculadoraBasica.css" />
+    <script src="CalculadoraBasica.js"></script>
+</head>
+
+<body>
+    <main>
+        <h1>Calculadora Básica</h1>
+        <form name="teclado">
+            <label for="pantalla">pantalla</label>
+            <input type="text" id="pantalla" disabled="" title="pantalla" />
+            
+            <input type="button" value="mrc" onClick="c.mrc()"/>
+            <input type="button" value="m-" onClick="c.mmenos()"/>
+            <input type="button" value="m+" onClick="c.mmas()"/>
+            <input type="button" value="/" onClick="c.dividir()"/>
+            
+            <input type="button" value="7" onClick="c.numero(7)"/>
+            <input type="button" value="8" onClick="c.numero(8)"/>
+            <input type="button" value="9" onClick="c.numero(9)"/>
+            <input type="button" value="*" onClick="c.multiplicar()"/>
+            
+            <input type="button" value="4" onClick="c.numero(4)"/>
+            <input type="button" value="5" onClick="c.numero(5)"/>
+            <input type="button" value="6" onClick="c.numero(6)"/>
+            <input type="button" value="-" onClick="c.restar()"/>
+            
+            <input type="button" value="1" onClick="c.numero(1)"/>
+            <input type="button" value="2" onClick="c.numero(2)"/>
+            <input type="button" value="3" onClick="c.numero(3)"/>
+            <input type="button" value="+" onClick="c.sumar()"/>
+            
+            <input type="button" value="0" onClick="c.numero(0)"/>
+            <input type="button" value="." onClick="c.punto()"/>
+            <input type="button" value="C" onClick="c.borrar()"/>
+            <input type="button" value="=" onClick="c.mostrar()"/>
+            
+        </form>
+    </main>
+
+</body>
+</html>
