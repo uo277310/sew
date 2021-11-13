@@ -23,6 +23,10 @@ form {
     grid-template-columns: repeat(4, 1fr);
 }
 
+label {
+    display:none;
+}
+
 input[type=text] {
     grid-column: 1 / 5;
     height: 40px;
